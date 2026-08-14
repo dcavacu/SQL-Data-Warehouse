@@ -6,7 +6,7 @@ Script Purpose:
     This script full loads data into the bronze schema from external CSV files.
 	It performs the following actions:
 		- Truncates the bronze tables
-		- User the 'BULK INSERT' command to load data into the tables
+		- Uses the 'BULK INSERT' command to load data into the tables
 Usage:
 	EXEC bronze.load_bronze
 ===============================================================================
