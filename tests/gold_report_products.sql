@@ -1,4 +1,25 @@
+/*
+===============================================================================
+Product Report
+===============================================================================
+Purpose:
+	- This Report Consolidates key product metrics and behaviors.
 
+Highlighs:
+	1. Gather essential fields such as product name, catgory, subcategory and cost.
+	2. Segments products by revenue to identify High-Perfomance, Mid-Range or Low-Perfomers
+	3. Aggregates product-level matrics:
+		- total orders
+		- total sales
+		- total quantity sold
+		- total custumers (unique)
+		- lifespan (in months)
+	4. Calculates caluable KPIs:
+		- recency (months since last sale)
+		- average order revenue (AOR)
+		- average monthly revenue
+===============================================================================
+*/
 if object_id('gold.report_products', 'v') is not null
 	drop view gold.report_products
 go
